@@ -3,12 +3,12 @@
           box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-}
-
 body {
   background-color: purple;
+  background-image: url(/images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

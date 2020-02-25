@@ -3,8 +3,13 @@
           box-sizing: border-box;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  padding: 60px 80px 40px 80px;
+  padding: 70px 40px 70px 40px;
   background-color: #674bb1;
   background-image: url("/images/bg-mobile.svg");
   background-size: cover;
@@ -16,6 +21,7 @@ body {
 @media screen and (min-width: 640px) {
   body {
     background-image: url("/images/bg-desktop.svg");
+    padding: 60px 80px 40px 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */

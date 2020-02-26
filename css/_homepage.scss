@@ -7,9 +7,26 @@ body {
     background-position: center;
     color: #ffffff;
 
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 1024px) {
         background-image: url('/images/bg-desktop.svg');
         padding: 60px 80px 40px 80px;
         
+    }
+}
+main {
+    @media screen and (min-width: 1024px) {
+        display: grid;
+    }
+}
+
+.heroImage {
+    @media screen and (min-width: 1024px) {
+        
+    }
+}
+
+.heroText {
+    @media screen and (min-width: 1024px) {
+       
     }
 }

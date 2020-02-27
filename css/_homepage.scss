@@ -16,17 +16,28 @@ body {
 main {
     @media screen and (min-width: 1024px) {
         display: grid;
+        grid-template-columns: repeat( 2, minmax(250px, 1fr) ); 
     }
 }
 
 .heroImage {
     @media screen and (min-width: 1024px) {
-        
+        margin-bottom: 70px;
+    }
+
+    img {
+        width: 100%;
     }
 }
 
 .heroText {
     @media screen and (min-width: 1024px) {
-       
+       padding-left: 60px;
+    }
+
+    h1 {
+        font-family: $font-title;
+        font-size: 32px;
+        font-weight: 700;
     }
 }

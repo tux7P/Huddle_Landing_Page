@@ -66,9 +66,21 @@ body {
   }
 }
 
-.heroText h1 {
+h1 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   font-weight: 700;
+  line-height: 1.3;
+}
+
+a.cta {
+  background: #ffffff;
+  color: #674bb1;
+}
+
+@media screen and (min-width: 1024px) {
+  a.cta {
+    padding: 20px 66px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

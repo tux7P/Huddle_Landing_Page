@@ -14,6 +14,10 @@ body {
   font-size: 16px;
 }
 
+a, a:visited {
+  text-decoration: none;
+}
+
 header {
   margin-bottom: 70px;
 }
@@ -76,6 +80,9 @@ h1 {
 a.cta {
   background: #ffffff;
   color: #674bb1;
+  border-radius: 30px;
+  -webkit-box-shadow: 5px 5px 10px #3d2d69;
+          box-shadow: 5px 5px 10px #3d2d69;
 }
 
 @media screen and (min-width: 1024px) {

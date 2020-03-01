@@ -46,6 +46,8 @@ h1 {
 a.cta {
     background: #ffffff;
     color: $purple;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px darken($purple, 20%);
     @media screen and (min-width: 1024px) {
         padding: 20px 66px;
      }
